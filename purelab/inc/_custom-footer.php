@@ -31,8 +31,8 @@ function purelab_footer_TagFooterInner() {
 	$linkedInIcon = get_stylesheet_directory() . '/assets/userfilles/icons/linkedin.svg';
 	$instagramIcon = get_stylesheet_directory() . '/assets/userfilles/icons/instagram.svg';
 	?>
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 ">
-			<div class="col">
+		<div class="row ">
+			<div class="col-lg-3">
 				<a href="/" class="footer__logo d-flex align-items-center w-auto text-decoration-none">
 					<img class="bi me-2" src="<?= wp_get_attachment_url( get_option( 'media_selector_attachment_id' ) )?>" alt="Logo">
 					<span class="fs-4"><b><?=__('Nature','purelab')?></b> &nbsp;<?=__('Agency','purelab')?></span>
@@ -49,7 +49,16 @@ function purelab_footer_TagFooterInner() {
 
 			</div>
 
-			<div class="col">
+			<div class="col-lg-2">
+				<h5>Lorem ipsum</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
+					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
+					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
+					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2">
 				<h5>Lorem ipsum</h5>
 				<ul class="nav flex-column">
 					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
@@ -59,7 +68,7 @@ function purelab_footer_TagFooterInner() {
 				</ul>
 			</div>
 
-			<div class="col">
+			<div class="col-lg-2">
 				<h5>Lorem ipsum</h5>
 				<ul class="nav flex-column">
 					<li class="nav-item "><a href="#" class="nav-link p-0 ">Lorem ipsum</a></li>
