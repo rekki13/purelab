@@ -1,12 +1,12 @@
 <section class="section section__banner">
 	<div class="container-fluid">
 		<div class="section__banner-row row">
-			<div class="col-6 col-img">
+			<div class="col-lg-6 col-img order-2">
 				<img id="banner-preview"
 				     src="<?php echo wp_get_attachment_url( get_option( 'banner_media_selector_attachment_id' ) ); ?>"
 				     alt="banner" class="w-100 h-100">
 			</div>
-			<div class="col-6 col-text">
+			<div class="col-lg-6 col-text order-3 ">
 				<div class="section__banner-row-subtitle">
 					<p><?=__('On focus','purelab')?></p>
 				</div>

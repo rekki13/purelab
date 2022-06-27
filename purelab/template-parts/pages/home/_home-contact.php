@@ -17,7 +17,7 @@
 			<!--Grid column-->
 
 			<!--Grid column-->
-			<div class="col-lg-3 contact-info order-2 order-lg-0">
+			<div class="col-lg-3 contact-info text-center text-lg-start order-2 order-lg-0">
 				<ul class="list-unstyled mb-0">
 					<li>
 						<a href="#"><?= __( 'San Francisco, CA 94126, USA',
