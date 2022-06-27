@@ -1,0 +1,95 @@
+body {
+	font-family: 'Manrope', sans-serif;
+}
+
+/**Header*/
+.header-row {
+	padding: 20px 0;
+}
+.header-row svg .a{
+	fill:transparent;
+}
+.header__logo {
+	color: black;
+}
+
+.header__logo span,.footer__logo span {
+	display: inherit;
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.header__menu {
+
+}
+
+.header__menu .menu-item {
+	padding: 8px 18px;
+}
+
+.header__menu .menu-item a {
+	color: #262626;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/**Footer  */
+footer {
+	background-color: #262626;
+	padding: 96px 0;
+}
+
+footer .footer__logo {
+	color: #fff;
+	margin-bottom: 26px;
+}
+footer p{
+	color:#999999;
+	font-size: 13px;
+	line-height: 22px;
+	margin-bottom: 60px;
+}
+footer .list-socials{
+	column-gap: 17px;
+}
+footer h5{
+	color: #218491;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 17px;
+}
+footer .nav .nav-item{
+	margin-bottom: 10px;
+}
+footer .nav .nav-item:last-of-type{
+	margin-bottom: 0;
+}
+
+footer .nav  .nav-link{
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+}
+/**Other*/
+form svg:hover {
+	cursor: pointer;
+}
+
+.btn, .button {
+	background: #218491;
+	color: white;
+	border-radius: 100px;
+	font-size: 14px;
+	line-height: 19px;
+	padding: 15px 30px;
+}
+
+.btn:hover, .button:hover {
+	background-color: white;
+}
+
+.btn.black:hover, .button.black:hover {
+	color: white;
+
+	background-color: black;
+}
