@@ -3,7 +3,7 @@
 $active = $args['info'];
 ?>
 <div class="carousel-item <?= ($active==0)?'active':''?>">
-	<img src="<?php the_post_thumbnail_url('full');?>" class="d-block w-100" alt="<?php the_title()?>">
+	<img src="<?php the_post_thumbnail_url('full');?>" class="d-block w-100 h-100" alt="<?php the_title()?>">
 	<div class="carousel-caption">
 		<?php the_category();?>
 		<h5 class="post-title"><?php the_title()?></h5>

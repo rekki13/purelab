@@ -424,10 +424,28 @@ Home
 	.section__latest{
 		padding: 80px 12px;
 	}
+	.carousel-caption{
+		bottom: 10%;
+		padding: 0;
+		width: 80%;
+		text-align: left;
+		left: 10%;
+	}
+	.carousel-caption .post-title{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: bold;
+		color: #FFFFFF;
+		margin-bottom: 19px;
+	}
 }
 
 @media screen and (max-width: 425px) {
 	.section__banner .section__banner-row .col-text {
 		padding: 60px 20px;
 	}
-}
+
+	.carousel-caption  .button{
+		width: 100%;
+	}
+	}
