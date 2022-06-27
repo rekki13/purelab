@@ -44,5 +44,7 @@ function purelab_scripts() {
 	 * @wp_enqueue_script
 	 */
 	wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', [ 'jquery' ], '3.4.2', true );
-
+	wp_enqueue_script( 'contact-form',
+		get_template_directory_uri() . '/assets/js/contact-form.js',
+		array(), '', true );
 }

@@ -8,17 +8,17 @@
 			</div>
 			<div class="col-6 col-text">
 				<div class="section__banner-row-subtitle">
-					<p>On focus</p>
+					<p><?=__('On focus','purelab')?></p>
 				</div>
 				<div class="section__banner-row-title">
-					<h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-						sed.</h3>
+					<h3><?=__('Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+						sed.','purelab')?></h3>
 				</div>
 				<div class="section__banner-row-text">
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+					<p><?=__('Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 						sed diam nonumy eirmod tempor invidunt ut labore et
 						dolore magna aliquyam erat, sed diam voluptua. At vero
-						eos et accusam et justo.</p>
+						eos et accusam et justo.','purelab')?></p>
 				</div>
 				<div class="section__banner-row-link">
 					<a href="#" class="btn button"><?= __( 'Read more',
