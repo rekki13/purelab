@@ -20,7 +20,7 @@ $arrow = get_template_directory_uri().'/assets/userfilles/icons/Arrow.svg';
 
 				while ( $query->have_posts() ) :
 					$query->the_post();
-					get_template_part( 'template-parts/parts/_hero', 'slide',
+					get_template_part( 'template-parts/parts/_home', 'slide',
 							[ 'info' => $count ] );
 					$count ++;
 				endwhile;

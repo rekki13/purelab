@@ -4,7 +4,9 @@ body {
 .container{
 	max-width: 1110px;
 }
-
+section.section{
+	margin-bottom: 80px;
+}
 /**Header*/
 .header-row {
 	padding: 20px 0;
@@ -21,10 +23,6 @@ body {
 	display: inherit;
 	font-size: 26px;
 	line-height: 36px;
-}
-
-.header__menu {
-
 }
 
 .header__menu .menu-item {
@@ -152,4 +150,31 @@ Home
 }
 .carousel-control-next svg{
 	transform: rotate(180deg);
+}
+/**Home post*/
+.section__post .section__post-row-category .post-categories{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 9px;
+}
+
+.section__post .section__post-row-category .post-categories a{
+	color: #262626;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.section__post .section__post-row-title  h2 {
+	font-size: 30px;
+	line-height: 41px;
+	font-weight: bold;
+	color: #218491;
+	margin-bottom: 19px;
+}
+.section__post .section__post-row-content p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #6F6F6F;
+	margin-bottom: 28px;
 }
