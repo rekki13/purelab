@@ -421,6 +421,9 @@ Home
 		padding: 60px 20px;
 
 	}
+	.section__latest{
+		padding: 80px 12px;
+	}
 }
 
 @media screen and (max-width: 425px) {

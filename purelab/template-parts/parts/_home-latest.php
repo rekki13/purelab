@@ -1,4 +1,4 @@
-<div class="col-4">
+<div class="col-12 mb-5 mb-lg-0 col-lg-4">
 	<div class="card border-0">
 		<img src="<?php the_post_thumbnail_url();?>" class="card-img-top" alt="<?php the_title()?>">
 		<div class="card-body">
