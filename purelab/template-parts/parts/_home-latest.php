@@ -4,7 +4,7 @@
 		<div class="card-body">
 			<div class="card-info d-flex align-items-center">
 				<?php the_category();?>
-				<span class="post-date">/ &nbsp;<?php the_date('F Y, j')?></span>
+				<span class="post-date">/ &nbsp;<?php the_time('F Y, j')?></span>
 			</div>
 			<h5 class="card-title"><?php the_title()?></h5>
 

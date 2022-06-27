@@ -15,8 +15,8 @@
 			<?php
 			// задаем нужные нам критерии выборки данных из БД
 			$args = array(
+					'orderby' => 'date',
 					'posts_per_page' => 3,
-					'orderby'        => 'date',
 					'order'          => 'DESC'
 			);
 

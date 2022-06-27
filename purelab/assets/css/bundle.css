@@ -110,10 +110,10 @@ form svg:hover {
 .btn, .button {
 	background: #218491;
 	color: white;
-	border-radius: 100px;
+	border-radius: 26px;
 	font-size: 14px;
 	line-height: 19px;
-	padding: 15px 30px;
+	padding: 16px 34px;
 	border: none;
 
 }
@@ -220,6 +220,7 @@ Home
 .section__latest {
 	background: #F1F1F1;
 	padding: 90px;
+	margin-bottom: 0;
 }
 
 .section__latest .section__latest-row {
@@ -246,12 +247,16 @@ Home
 
 .section__latest .card-img-top {
 	max-height: 206px;
-	height:206px;
+	height: 206px;
 }
 
 .section__latest .card-body {
 	padding: 35px;
 	padding-left: 40px;
+}
+
+.section__latest .card {
+	box-shadow: 20px 20px 30px #0000000F;
 }
 
 .section__latest .section__latest-row .card-title {
@@ -332,4 +337,52 @@ Home
 	line-height: 19px;
 	color: #999999;
 	font-weight: bold;
+}
+
+/*Home banner*/
+.section__banner .section__banner-row .col-img {
+	padding: 0;
+}
+
+.section__banner .section__banner-row .col-text {
+	padding: 60px;
+	padding-right: 170px;
+	background: #218491;
+	display: flex;
+	/* align-items: center; */
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.section__banner .section__banner-row .col-text .section__banner-row-subtitle p {
+	color: #FFFFFF;
+	opacity: 1;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	margin-bottom: 9px;
+}
+
+.section__banner .section__banner-row .col-text .section__banner-row-title h3 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 41px;
+	margin-bottom: 19px;
+}
+
+.section__banner .section__banner-row .col-text p {
+	color: #FFFFFF;
+	line-height: 26px;
+	font-size: 16px;
+	margin-bottom: 28px;
+}
+
+.section__banner .section__banner-row .col-text .btn {
+	background: #000;
+}
+
+.section__banner .section__banner-row .col-text .section__banner-row-link .btn:hover {
+	color: #218491;
+	background: #fff;
 }
