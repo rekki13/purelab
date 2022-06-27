@@ -482,7 +482,7 @@ function display_contact_form() {
 			<textarea id="message" name="message" class="form-control" rows="3"  placeholder="Your message"></textarea>
 		</div>
 
-		<input type="submit" id="contact-form-submit" class="button btn " value="<?php echo esc_attr( 'Submit', 'purelab' ); ?>">
+		<input type="submit" id="contact-form-submit" class="button btn d-block mx-auto mx-lg-0" value="<?php echo esc_attr( 'Submit', 'purelab' ); ?>">
 
 	</form>
 
