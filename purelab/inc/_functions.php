@@ -195,7 +195,7 @@ function add_button_last_item_menu( $items, $args ) {
 				   . '/assets/userfilles/icons/search.svg';
 	if ( $args->theme_location == 'main_menu'
 	) {
-		$items .= '<li class="menu-item nav-item "><form class="w-auto" role="search">'
+		$items .= '<li class="menu-item nav-item d-none d-lg-block"><form class="w-auto" role="search">'
 				  . file_get_contents( $search_icon ) . '
           <input type="search" class="form-control form-control-dark d-none text-white bg-dark" placeholder="Search..." aria-label="Search">
         </form> </li>';

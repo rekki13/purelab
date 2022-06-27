@@ -75,7 +75,9 @@ form.contact-form #contact-form-submit:hover {
 .header__menu .menu-item {
 	padding: 8px 18px;
 }
-
+.header__menu{
+	width: auto;
+}
 .header__menu .menu-item a {
 	color: #262626;
 	font-size: 14px;
@@ -421,31 +423,50 @@ Home
 		padding: 60px 20px;
 
 	}
-	.section__latest{
+
+	.section__latest {
 		padding: 80px 12px;
 	}
-	.carousel-caption{
+
+	.carousel-caption {
 		bottom: 10%;
 		padding: 0;
 		width: 80%;
 		text-align: left;
 		left: 10%;
 	}
-	.carousel-caption .post-title{
+
+	.carousel-caption .post-title {
 		font-size: 30px;
 		line-height: 40px;
 		font-weight: bold;
 		color: #FFFFFF;
 		margin-bottom: 19px;
 	}
+	.header__menu {
+		position: relative;
+		width: -webkit-fill-available;
+	}
+
+	#menu-main-menu {
+		position: absolute;
+		top:100%;
+		z-index: 9;
+		background: white;
+		width: 100%;
+	}
+
+
 }
 
 @media screen and (max-width: 425px) {
+
 	.section__banner .section__banner-row .col-text {
 		padding: 60px 20px;
 	}
 
-	.carousel-caption  .button{
+	.carousel-caption .button {
 		width: 100%;
 	}
-	}
+
+}
