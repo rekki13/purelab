@@ -82,8 +82,12 @@ form.contact-form #contact-form-submit:hover {
 	color: #262626;
 	font-size: 14px;
 	line-height: 19px;
+	transition: .3s all ease-in-out;
 }
+.header__menu .menu-item a:hover {
+	color: #218491;
 
+}
 /**Footer  */
 footer {
 	background-color: #262626;
@@ -130,6 +134,10 @@ footer .nav .nav-link {
 	color: #fff;
 	font-size: 14px;
 	line-height: 28px;
+	transition: .3s all ease-in-out;
+}
+.footer .nav .nav-link:hover{
+	color: #218491;
 }
 
 /**Other*/
@@ -245,9 +253,14 @@ Home
 	color: #6F6F6F;
 	margin-bottom: 28px;
 }
-
-/**Home Latest*/
-.section__latest {
+.section__post .section__post-row-link .btn{
+	border: 1px solid #218491;
+}
+.section__post .section__post-row-link .btn:hover{
+border: 1px solid #218491;
+}
+	/**Home Latest*/
+section.section__latest {
 	background: #F1F1F1;
 	padding: 90px;
 	margin-bottom: 0;

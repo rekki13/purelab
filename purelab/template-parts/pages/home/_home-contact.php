@@ -2,10 +2,10 @@
 	<div class="container">
 
 		<!--Section heading-->
-		<h2 class="h1-responsive font-weight-bold text-center my-4"><?= __( 'Contact us',
+		<h2 class="h1-responsive font-weight-bold text-center text-lg-start my-4"><?= __( 'Contact us',
 				'purelab' ) ?></h2>
 		<!--Section description-->
-		<p class="text-center w-responsive mx-auto mb-5"><?= __( 'Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+		<p class="text-center text-lg-start w-responsive mx-auto mb-5"><?= __( 'Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
 			a matter of hours to help you.', 'purelab' ) ?></p>
 
 		<div class="row">
@@ -30,7 +30,7 @@
 					</li>
 
 					<li>
-						<a href="mailto:contact@mdbootstrap.com"><?= __( 'contact@mdbootstrap.com',
+						<a href="mailto:contact@gmail.com"><?= __( 'contact@gmail.com',
 								'purelab' ) ?></a>
 					</li>
 				</ul>
